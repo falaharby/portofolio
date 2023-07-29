@@ -1,0 +1,509 @@
+@media all and (min-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+
+@media all and (max-width: 1300px) {
+  .project {
+    padding: 150px 50px 50px;
+  }
+
+  .blog {
+    padding: 0px 50px 50px;
+  }
+
+  .home {
+    padding: 0 120px;
+  }
+
+  .skills {
+    padding: 0 120px 100px;
+  }
+
+  .ava {
+    left: 320px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .nav .container {
+    padding: 0px 50px;
+  }
+
+
+
+
+
+  .home {
+    padding: 0 100px;
+  }
+
+  .home .name {
+    font-size: 60px;
+  }
+
+  .ava {
+    left: 180px;
+  }
+
+  .left-home .garis {
+    margin-top: 15px;
+    height: 10px;
+    width: 60px;
+  }
+
+  .intro {
+    font-size : 30px;
+    margin : 20px 0 20px;
+  }
+
+  .text-intro {
+    font-size: 20px;
+  }
+
+  .text-intro2 {
+    font-size: 12px;
+  }
+
+
+
+
+  .skills {
+    padding: 0 100px 100px;
+    grid-template-columns: 53% auto;
+  }
+
+
+
+
+  .project {
+    padding: 150px 0px 50px;
+  }
+}
+
+
+
+@media all and (max-width: 800px) {
+  .sidebar {
+    display: block;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  .nav a {
+    font-size: 25px;
+  }
+
+  .home {
+    padding: 0 70px;
+  }
+
+  .ava {
+    left: 160px;
+  }
+
+  .project {
+    /* height: 1000px; */
+    padding: 150px 0px 50px;
+
+  }
+
+  .portfolio {
+    margin: 70px auto -40px;
+    float: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .portfolio img {
+    left: 187px;
+  }
+
+  .text-bottom {
+    left: 235px;
+  }
+
+  .footer {
+    padding: 0 100px;
+  }
+
+  .blog {
+    /* height: 737px; */
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .sidebar {
+    left: 800px;
+  }
+
+
+
+  .home {
+    display: inline-block;
+    padding: 0 80px;
+  }
+
+  .home .name {
+    font-size: 50px;
+  }
+
+  .falah {
+    display: inline;
+  }
+
+  .hikamudin {
+    display: inline;
+  }
+
+  .left-home {
+    padding-top: 180px;
+  }
+
+  .right-home {
+    padding-top: 50px;
+    width: 250px;
+  }
+
+  .ava {
+    width : 370px;
+    top : 220px;
+    left: 230px;
+  }
+
+
+
+  .nav {
+    margin-top: 30px;
+  }
+
+  .nav-new {
+    margin-top:0px;
+  }
+
+  .nav .container {
+    padding: 10px 30px;
+  }
+
+
+
+  .nav li {
+    display: none;
+  }
+
+  .menu {
+    display:contents;
+  }
+
+
+
+  .skills {
+    display: block;
+    margin-top: -218px;
+  }
+
+  .skill-left h1 {
+    padding-top: 130px;
+  }
+
+  .char-coding {
+    display: none;
+    float: right;
+    margin-top: 20px;
+    width: 250px;
+  }
+
+
+
+  .portfolio img {
+    left: 127px;
+  }
+
+  .text-bottom {
+    left: 175px;
+  }
+
+
+  .resume-button {
+    font-size: 12px;
+  }
+ 
+  .resume-button img {
+    width: 15px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .nav {
+    margin-top: 30px;
+  }
+
+  .nav .container {
+    padding: 10px 30px;
+  }
+
+ .nav-new {
+    margin-top:0px;
+  }
+
+  .portfolio img {
+    left: 77px;
+  }
+
+  .text-bottom {
+    left: 125px;
+  }
+
+
+  .right-home {
+    width: 200px;
+  }
+  .ava {
+    top: 250px;
+    width: 350px;
+  }
+  
+  .footer {
+    padding: 0 50px;
+  }
+
+  
+}
+
+
+@media all and (max-width: 550px) {
+
+  .home {
+    padding: 0 50px;
+  }
+
+  .right-home {
+    width: 180px;
+  }
+  .ava {
+    top: 320px;
+    width: 300px;
+    left: 160px;
+  }
+
+  .text-intro {
+    font-size: 15px;
+  }
+
+  .intro {
+    font-size : 23px;
+  }
+
+  .text-intro2 {
+    font-size: 10px;
+  }
+
+  .skills {
+    padding: 0 30px 100px;
+  }
+
+  /* .skills-section {
+   grid-template-columns: 100%;
+  } */
+  .skill-left .skill-div {
+    padding : 0px 20px;
+  }
+
+  .portfolio img {
+    left: 57px;
+  }
+
+  .text-bottom {
+    left: 115px;
+  }
+
+  .blog {
+    /* display: inline-block;
+    grid-template-columns: 100%; */
+    display: block;
+  }
+
+  .card-title {
+    font-size: 15px;
+  }
+
+  .card-body {
+    font-size: 9px;
+  }
+}
+
+@media all and (max-width: 450px) {
+
+  .logo {
+    width: 50px;
+  }
+
+
+
+  .home .name{
+    font-size: 40px;
+  }
+  
+  .right-home {
+    width: 240px;
+  }
+
+  .text-intro {
+    font-size: 12px;
+  }
+
+  .intro {
+    font-size : 20px;
+  }
+
+  .text-intro2 {
+    font-size: 8px;
+  }
+
+  .ava {
+    width: 240px;
+    top: 400px;
+    left: 160px;
+  }
+
+
+
+
+  /* .skill-left div {
+    width: 250px;
+  } */
+
+
+
+  .portfolio img {
+    left: 37px;
+    width: 320px;
+  }
+
+  .text-bottom {
+    width: 240px;
+    top: 30px;
+    left: 85px;
+  }
+
+  .title p{
+    font-size: 12px;
+  }
+
+  .title h1 {
+    font-size: 35px;
+  }
+
+  .resume-button {
+    font-size: 10px;
+    padding: 6px 15px 6px 12px;
+  }
+ 
+  .resume-button img {
+    width: 12px;
+  }
+
+  .link-button img {
+    width: 12px;
+  }
+  
+  .link-button span {
+    font-size: 8px;
+  }
+}
+
+
+@media all and (max-width: 400px) {
+  .logo {
+    width: 35px;
+  } 
+
+  .menu {
+    font-size: 40px;
+  }
+
+
+  .home .name {
+    font-size: 30px;
+  }
+
+  .right-home {
+    width: 219px;
+  }
+
+  .left-home {
+    padding-top: 180px;
+  }
+
+  .right-home {
+    padding-top: 30px;
+  }
+
+  .intro {
+    margin: 10px 0 20px;
+  }
+
+  .ava {
+    left: 80px;
+    top: 400px;
+
+  }
+
+
+  
+
+  .skill-left h1 {
+    font-size: 28px;
+  }
+
+  .skill-left h1 span {
+    font-size: 40px;
+  }
+
+
+
+
+  .portfolio img {
+    left: 37px;
+    width: 280px;
+  }
+
+  .text-bottom {
+    width: 230px;
+    top: 0px;
+    left: 65px;
+  }
+
+  .skill-left img {
+    width: 30px;
+  }
+  
+  .skill-left span {
+
+    font-size: 18px;
+
+  }
+
+  /* .skill-left div {
+    width: 230px;
+  } */
+
+
+  .portfolio a:hover + .text-bottom{
+    top: 150px;
+    
+  }
+
+  .sidebar ul {
+    margin-left: 30px;
+  }
+
+  .sidebar li {
+    font-size : 20px
+  }
+}
